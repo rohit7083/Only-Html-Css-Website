@@ -1,0 +1,382 @@
+body {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -40px;
+    list-style-type: none;
+    color: white;
+}
+
+li {
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.title {
+
+    color: white;
+    position: relative;
+    left: 2rem;
+
+}
+
+button.btn1 {
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 11px;
+    background-color: white;
+    margin-top: -5px;
+    font-weight: bolder;
+
+}
+
+button.btn2 {
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 11px;
+    background-color: rgb(212, 128, 18);
+    margin-top: -5px;
+    font-weight: bolder;
+
+}
+
+h2.headpara {
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    left: 29px;
+    font-size: xxx-large;
+
+}
+
+p.para {
+    color: white;
+    font-family: monospace;
+    position: relative;
+    left: 29px;
+}
+
+img.myimageinner {
+    height: 19rem;
+    position: relative;
+    top: -19rem;
+    right: -41rem;
+}
+
+.contactus {
+    position: relative;
+    top: -14rem;
+    left: 2rem;
+}
+
+
+input.inp1 {
+    padding: 8px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+button.btn3 {
+    padding: 8px 6px;
+    margin: 0px -17px;
+    background-color: orange;
+    border-radius: 9px;
+    font-weight: bold;
+
+}
+
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #59597b;
+  
+    z-index: 1;
+}
+
+.drop-content a {
+    color: black;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-content a:hover {
+    background-color: #ffffff;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+
+
+img.myimagelogo {
+    width: 12px;
+    height: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.myform {
+    border: 2px solid;
+    position: relative;
+    top: -6rem;
+    background-color: white;
+    border-radius: 68px;
+}
+
+
+form.myinstantform {
+    margin: 0rem 1rem;
+}
+
+
+input.mytext[type="text"] {
+    padding: 7px 7px;
+    margin: 9px 12px;
+    border: 2px solid;
+    border-radius: 11px;
+    width: 21rem;
+}
+
+textarea {
+    padding: 18px 8px;
+    margin: 9px 0px;
+    border: 2px solid;
+    border-radius: 11px;
+    width: 21rem;
+}
+
+label.msz {
+    position: relative;
+    top: -40px;
+    left: -14px;
+}
+
+button.savecontact {
+    padding: 6px 25px;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: burlywood;
+    margin-bottom: 27px;
+    position: relative;
+    right: -11rem;
+    top: 1rem;
+}
+
+h1.mycontact {
+    position: relative;
+    left: 9rem;
+}
+
+
+img.myconimage {
+    width: 27rem;
+    position: absolute;
+    top: 61rem;
+    right: 4rem;
+    height: 19rem;
+}
+
+.Card {
+    border: 2px solid;
+    width: min-content;
+    color: white;
+    margin: 0px 20px;
+    position: relative;
+    top: -10rem;
+    border: 2px solid white;
+    border-radius: 7px;
+
+}
+
+.details {
+    text-align: center;
+}
+
+
+
+.maincard {
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.About-card {
+    border: 1px solid white;
+    border-radius: 14px;
+    display: flex;
+    max-width: 68rem;
+    margin: 0px 49px;
+}
+.aboutr-inner {
+    text-align: center;
+    color: aliceblue;
+}
+
+.myfooter{
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* ========================== */
+
+
+
+ 
+@media (max-width: 1100px) {
+    img.myconimage {
+        position: absolute;
+        top: 64rem;
+        left: 32rem;
+        height: 13rem;
+        width: 14rem;
+    }
+    h2.headpara {
+        font-size: xx-large;
+        position: relative;
+        top: 3rem;
+    }
+    img.myimageinner {
+        position: relative;
+        top: -11rem;
+        width: 22rem;
+        left: 30rem;
+    }
+    p.para {
+        position: relative;
+        top: 3rem;
+    }
+    .contactus {
+        position: relative;
+        top: -13rem;
+    }
+    .maincard {
+        position: relative;
+        top: 3rem;
+    }
+    .Card {
+        width: 11rem;
+    }
+    img {
+        width: 11rem;
+    }
+    div#myformid {
+        margin: 0px 44px;
+        top: 1rem;
+    }
+    form.myinstantform {
+        margin: 0rem 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+   
+    img.myimageinner {
+       display: none;
+    }
+    img.myconimage {
+        display: none;
+    }
+    .maincard {
+        position: relative;
+        top: 17rem;
+    }
+    .contactus {
+        position: relative;
+        top: 3rem;
+    }
+    div#myformid {
+        position: relative;
+        top: 10rem;
+        /* paddi    ng: 1px 114px; */
+    }
+    .myfooter{
+    position: relative;
+    bottom: -11rem;
+    }
+    
+    form.myinstantform {
+        margin: 0px 26px;
+    }
+} 
+
+
+
+@media (max-width: 600px) {
+    .navbar ul {
+      float: none;
+      display: block;
+    }
+    li {
+        padding: 4px 1px;
+    }
+    .title{
+        text-align: center;
+    }
+   
+    img.myconimage {
+        display: none;
+    }
+    form.myinstantform {
+        position: relative;
+        right: -2rem;
+    }
+   
+    
+    .maincard{
+       display: block;
+       position: relative;
+        top: 17rem;
+    }
+    .Card {
+        position: relative;
+        left: 9%;
+        margin: 13px 0px;
+    }
+    input.mytext[type="text"] {
+       
+        width: 10rem;
+    }
+    textarea {
+   
+        width: 10rem;
+    }
+    button.savecontact{
+        position: relative;
+    right: -6rem;
+
+    }
+    h1.mycontact {
+        position: relative;
+        left: 2rem;
+    }
+    img.myimageinner {
+        display: none;
+    }
+    .contactus {
+        position: relative;
+        top: 3rem;
+    }
+    div#myformid {
+        position: relative;
+        top: 10rem;
+    }
+  }
+
+
